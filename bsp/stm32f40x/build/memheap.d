@@ -1,0 +1,10 @@
+.\build\memheap.o: ..\..\src\memheap.c
+.\build\memheap.o: ..\..\include\rthw.h
+.\build\memheap.o: ..\..\include\rtthread.h
+.\build\memheap.o: ..\..\include\rtdef.h
+.\build\memheap.o: .\rtconfig.h
+.\build\memheap.o: E:\setup\uvision\ARM\ARMCC\bin\..\include\stdarg.h
+.\build\memheap.o: ..\..\include\rtdebug.h
+.\build\memheap.o: ..\..\include\rtservice.h
+.\build\memheap.o: ..\..\include\rtm.h
+.\build\memheap.o: ..\..\include\rtthread.h

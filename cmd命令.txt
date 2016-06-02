@@ -1,0 +1,7 @@
+
+环境变量：D:\SVC\RT-Thread_1.2.0
+
+转到D:\SVC\RT-Thread_1.2.0\bsp\stm32f40x文件夹下面
+
+命令是：
+F:\Python\Scripts\scons --target=mdk4 -s

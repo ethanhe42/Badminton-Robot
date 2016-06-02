@@ -1,0 +1,515 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\robocon\程序_杨坚+防打滑\bsp\stm32f40x\project.uvproj
+Project File Date:  01/29/2015
+
+<h2>Output:</h2>
+Build target 'rt-thread_stm32f4xx'
+compiling application.c...
+compiling mb.c...
+compiling mq.c...
+compiling t_lcd_refresh.c...
+compiling t_keyboard.c...
+Thread\t_keyboard.c(14): warning:  #177-D: variable "GPIO_InitStructure" was declared but never referenced
+Thread\t_keyboard.c(16): warning:  #177-D: variable "TIM_OCInitStructure" was declared but never referenced
+compiling t_emergency.c...
+compiling t_handle.c...
+Thread\t_handle.c(16): error:  #20: identifier "bool" is undefined
+Thread\t_handle.c(61): warning:  #550-D: variable "Speed_M" was set but never used
+compiling t_FATfs.c...
+Thread\t_FATfs.c(133): warning:  #223-D: function "sd_res" declared implicitly
+Thread\t_FATfs.c(148): warning:  #223-D: function "sd_res" declared implicitly
+Thread\t_FATfs.c(200): warning:  #223-D: function "sd_res" declared implicitly
+compiling Y_handle.c...
+Y_handle.c(12): error:  #20: identifier "bool" is undefined
+Y_handle.c(53): warning:  #550-D: variable "Speed_M" was set but never used
+compiling t_timer.c...
+Thread\t_timer.c(19): warning:  #177-D: variable "M_Struct" was declared but never referenced
+compiling t_realspe.c...
+compiling m_func.c...
+compiling m_list.c...
+compiling m_sys.c...
+menuSys\m_sys.c(319): warning:  #223-D: function "test_speed_xy" declared implicitly
+compiling m_test.c...
+compiling m_route.c...
+compiling m_cock.c...
+compiling liwenlin.c...
+menuSys\liwenlin.c(27): warning:  #177-D: variable "flag" was declared but never referenced
+menuSys\liwenlin.c(28): warning:  #177-D: variable "i" was declared but never referenced
+menuSys\liwenlin.c(234): warning:  #177-D: variable "st_num" was declared but never referenced
+menuSys\liwenlin.c(235): warning:  #177-D: variable "sa_num" was declared but never referenced
+menuSys\liwenlin.c(301): warning:  #223-D: function "Input_FloatValue" declared implicitly
+compiling lcd_keyboard.c...
+compiling gyro.c...
+compiling encoder.c...
+compiling gps.c...
+compiling relay.c...
+compiling motor.c...
+compiling camera.c...
+UserDevices\camera.c(1050): warning:  #550-D: variable "error_x" was set but never used
+compiling laser.c...
+compiling lightboard.c...
+compiling sonic.c...
+compiling Swedish.c...
+compiling easyline.c...
+compiling goline.c...
+compiling gocircle.c...
+compiling keep.c...
+Route\keep.c(605): warning:  #177-D: variable "flag" was declared but never referenced
+compiling pointpath.c...
+compiling t_auto.c...
+compiling t_arm.c...
+compiling goroute.c...
+compiling armaction.c...
+Auto\armaction.c(358): warning:  #223-D: function "mt_line" declared implicitly
+compiling t_catching.c...
+Auto\t_catching.c(94): warning:  #177-D: variable "dim" was declared but never referenced
+compiling mymath.c...
+Project build/rebuild aborted.
+Target not created
+Build target 'rt-thread_stm32f4xx'
+compiling t_handle.c...
+Thread\t_handle.c(61): warning:  #550-D: variable "Speed_M" was set but never used
+compiling Y_handle.c...
+Y_handle.c(53): warning:  #550-D: variable "Speed_M" was set but never used
+compiling m_list.c...
+menuSys\m_list.c(131): error:  #20: identifier "Up_motor" is undefined
+menuSys\m_list.c(132): error:  #20: identifier "Cylinder" is undefined
+menuSys\m_list.c(133): error:  #20: identifier "Sa_St" is undefined
+menuSys\m_list.c(136): error:  #20: identifier "key" is undefined
+compiling liwenlin.c...
+menuSys\liwenlin.c(27): warning:  #177-D: variable "flag" was declared but never referenced
+menuSys\liwenlin.c(28): warning:  #177-D: variable "i" was declared but never referenced
+menuSys\liwenlin.c(234): warning:  #177-D: variable "st_num" was declared but never referenced
+menuSys\liwenlin.c(235): warning:  #177-D: variable "sa_num" was declared but never referenced
+menuSys\liwenlin.c(301): warning:  #223-D: function "Input_FloatValue" declared implicitly
+compiling mystring.c...
+compiling pid.c...
+compiling databack.c...
+compiling board.c...
+drivers\board.c(141): warning:  #223-D: function "tim_init" declared implicitly
+compiling dma_rx_isr.c...
+compiling stm32f4xx_it.c...
+drivers\stm32f4xx_it.c(274): warning:  #223-D: function "short2double" declared implicitly
+drivers\stm32f4xx_it.c(54): warning:  #177-D: variable "i" was declared but never referenced
+drivers\stm32f4xx_it.c(55): warning:  #177-D: variable "buffer" was declared but never referenced
+drivers\stm32f4xx_it.c(56): warning:  #177-D: variable "receive" was declared but never referenced
+compiling stm324xg_eval_sdio_sd.c...
+drivers\stm324xg_eval_sdio_sd.c(261): warning:  #47-D: incompatible redefinition of macro "NULL" (declared at line 6 of "drivers\can_database.h")
+compiling io.c...
+compiling pwm.c...
+compiling can.c...
+compiling can_database.c...
+compiling Command.c...
+compiling fan.c...
+drivers\fan.c(291): warning:  #177-D: variable "j" was declared but never referenced
+drivers\fan.c(292): warning:  #177-D: variable "lastpwm" was declared but never referenced
+Project build/rebuild aborted.
+Target not created
+Build target 'rt-thread_stm32f4xx'
+compiling m_list.c...
+compiling liwenlin.c...
+menuSys\liwenlin.c(27): warning:  #177-D: variable "flag" was declared but never referenced
+menuSys\liwenlin.c(28): warning:  #177-D: variable "i" was declared but never referenced
+menuSys\liwenlin.c(234): warning:  #177-D: variable "st_num" was declared but never referenced
+menuSys\liwenlin.c(235): warning:  #177-D: variable "sa_num" was declared but never referenced
+menuSys\liwenlin.c(301): warning:  #223-D: function "Input_FloatValue" declared implicitly
+compiling Command.c...
+compiling sd_serve.c...
+compiling sd_save.c...
+compiling mouse.c...
+drivers\mouse.c(14): warning:  #177-D: variable "BYTE4" was declared but never referenced
+compiling fxh_misc.c...
+fxh_bool\fxh_misc.c(402): warning:  #223-D: function "sd_res" declared implicitly
+compiling laser1.c...
+compiling lightboard1.c...
+fxh_bool\lightboard1.c(122): warning:  #223-D: function "sd_res" declared implicitly
+compiling pid1.c...
+compiling sonic1.c...
+compiling t_test.c...
+compiling hook.c...
+fxh_bool\hook.c(25): warning:  #175-D: subscript out of range
+fxh_bool\hook.c(26): warning:  #175-D: subscript out of range
+fxh_bool\hook.c(27): warning:  #175-D: subscript out of range
+compiling speed_test.c...
+zx_speed\speed_test.c(310): warning:  #223-D: function "Com_Puts" declared implicitly
+zx_speed\speed_test.c(330): warning:  #1-D: last line of file ends without a newline
+zx_speed\speed_test.c(17): warning:  #177-D: variable "delay_time" was declared but never referenced
+linking...
+.\build\rtthread-stm32f4xx.axf: Error: L6218E: Undefined symbol Input_FloatValue (referred from liwenlin.o).
+Target not created
+Build target 'rt-thread_stm32f4xx'
+compiling liwenlin.c...
+menuSys\liwenlin.c(27): warning:  #177-D: variable "flag" was declared but never referenced
+menuSys\liwenlin.c(28): warning:  #177-D: variable "i" was declared but never referenced
+menuSys\liwenlin.c(234): warning:  #177-D: variable "st_num" was declared but never referenced
+menuSys\liwenlin.c(235): warning:  #177-D: variable "sa_num" was declared but never referenced
+menuSys\liwenlin.c(301): warning:  #223-D: function "Input_FloatValue" declared implicitly
+compiling lcd_keyboard.c...
+compiling Command.c...
+linking...
+Program Size: Code=231826 RO-data=395294 RW-data=25472 ZI-data=74504  
+User command #1: fromelf --bin .\build\rtthread-stm32f4xx.axf --output rtthread.bin
+".\build\rtthread-stm32f4xx.axf" - 0 Error(s), 5 Warning(s).
+Build target 'rt-thread_stm32f4xx'
+compiling application.c...
+compiling startup.c...
+compiling mb.c...
+compiling mq.c...
+compiling t_lcd_refresh.c...
+compiling t_keyboard.c...
+Thread\t_keyboard.c(14): warning:  #177-D: variable "GPIO_InitStructure" was declared but never referenced
+Thread\t_keyboard.c(16): warning:  #177-D: variable "TIM_OCInitStructure" was declared but never referenced
+compiling t_emergency.c...
+compiling t_handle.c...
+Thread\t_handle.c(61): warning:  #550-D: variable "Speed_M" was set but never used
+compiling t_FATfs.c...
+Thread\t_FATfs.c(133): warning:  #223-D: function "sd_res" declared implicitly
+Thread\t_FATfs.c(148): warning:  #223-D: function "sd_res" declared implicitly
+Thread\t_FATfs.c(200): warning:  #223-D: function "sd_res" declared implicitly
+compiling Y_handle.c...
+Y_handle.c(53): warning:  #550-D: variable "Speed_M" was set but never used
+compiling t_timer.c...
+Thread\t_timer.c(19): warning:  #177-D: variable "M_Struct" was declared but never referenced
+compiling t_realspe.c...
+compiling m_func.c...
+compiling m_list.c...
+compiling m_sys.c...
+menuSys\m_sys.c(319): warning:  #223-D: function "test_speed_xy" declared implicitly
+compiling m_test.c...
+compiling m_route.c...
+compiling m_cock.c...
+compiling liwenlin.c...
+menuSys\liwenlin.c(27): warning:  #177-D: variable "flag" was declared but never referenced
+menuSys\liwenlin.c(28): warning:  #177-D: variable "i" was declared but never referenced
+menuSys\liwenlin.c(234): warning:  #177-D: variable "st_num" was declared but never referenced
+menuSys\liwenlin.c(235): warning:  #177-D: variable "sa_num" was declared but never referenced
+compiling lcd_keyboard.c...
+compiling gyro.c...
+compiling encoder.c...
+compiling gps.c...
+compiling relay.c...
+compiling motor.c...
+compiling camera.c...
+UserDevices\camera.c(1050): warning:  #550-D: variable "error_x" was set but never used
+compiling laser.c...
+compiling lightboard.c...
+compiling sonic.c...
+compiling Swedish.c...
+compiling easyline.c...
+compiling goline.c...
+compiling gocircle.c...
+compiling keep.c...
+Route\keep.c(605): warning:  #177-D: variable "flag" was declared but never referenced
+compiling pointpath.c...
+compiling t_auto.c...
+compiling t_arm.c...
+compiling goroute.c...
+compiling armaction.c...
+Auto\armaction.c(358): warning:  #223-D: function "mt_line" declared implicitly
+compiling t_catching.c...
+Auto\t_catching.c(94): warning:  #177-D: variable "dim" was declared but never referenced
+compiling mymath.c...
+compiling mystring.c...
+compiling pid.c...
+compiling databack.c...
+compiling board.c...
+drivers\board.c(141): warning:  #223-D: function "tim_init" declared implicitly
+compiling dma_rx_isr.c...
+compiling stm32f4xx_it.c...
+drivers\stm32f4xx_it.c(274): warning:  #223-D: function "short2double" declared implicitly
+drivers\stm32f4xx_it.c(54): warning:  #177-D: variable "i" was declared but never referenced
+drivers\stm32f4xx_it.c(55): warning:  #177-D: variable "buffer" was declared but never referenced
+drivers\stm32f4xx_it.c(56): warning:  #177-D: variable "receive" was declared but never referenced
+compiling stm324xg_eval_sdio_sd.c...
+drivers\stm324xg_eval_sdio_sd.c(261): warning:  #47-D: incompatible redefinition of macro "NULL" (declared at line 6 of "drivers\can_database.h")
+compiling io.c...
+compiling pwm.c...
+compiling can.c...
+compiling can_database.c...
+compiling Command.c...
+compiling fan.c...
+drivers\fan.c(291): warning:  #177-D: variable "j" was declared but never referenced
+drivers\fan.c(292): warning:  #177-D: variable "lastpwm" was declared but never referenced
+compiling sd_serve.c...
+compiling sd_save.c...
+compiling mouse.c...
+drivers\mouse.c(14): warning:  #177-D: variable "BYTE4" was declared but never referenced
+compiling fxh_misc.c...
+fxh_bool\fxh_misc.c(402): warning:  #223-D: function "sd_res" declared implicitly
+compiling laser1.c...
+compiling lightboard1.c...
+fxh_bool\lightboard1.c(122): warning:  #223-D: function "sd_res" declared implicitly
+compiling pid1.c...
+compiling sonic1.c...
+compiling t_test.c...
+compiling hook.c...
+fxh_bool\hook.c(25): warning:  #175-D: subscript out of range
+fxh_bool\hook.c(26): warning:  #175-D: subscript out of range
+fxh_bool\hook.c(27): warning:  #175-D: subscript out of range
+compiling speed_test.c...
+zx_speed\speed_test.c(310): warning:  #223-D: function "Com_Puts" declared implicitly
+zx_speed\speed_test.c(330): warning:  #1-D: last line of file ends without a newline
+zx_speed\speed_test.c(17): warning:  #177-D: variable "delay_time" was declared but never referenced
+linking...
+Program Size: Code=231826 RO-data=395294 RW-data=25472 ZI-data=74504  
+User command #1: fromelf --bin .\build\rtthread-stm32f4xx.axf --output rtthread.bin
+".\build\rtthread-stm32f4xx.axf" - 0 Error(s), 34 Warning(s).
+Build target 'rt-thread_stm32f4xx'
+compiling liwenlin.c...
+menuSys\liwenlin.c(27): warning:  #177-D: variable "flag" was declared but never referenced
+menuSys\liwenlin.c(28): warning:  #177-D: variable "i" was declared but never referenced
+menuSys\liwenlin.c(234): warning:  #177-D: variable "st_num" was declared but never referenced
+menuSys\liwenlin.c(235): warning:  #177-D: variable "sa_num" was declared but never referenced
+compiling Command.c...
+linking...
+Program Size: Code=231826 RO-data=395294 RW-data=25472 ZI-data=74504  
+User command #1: fromelf --bin .\build\rtthread-stm32f4xx.axf --output rtthread.bin
+".\build\rtthread-stm32f4xx.axf" - 0 Error(s), 4 Warning(s).
+Load "E:\\robocon\\程序_杨坚+防打滑\\bsp\\stm32f40x\\build\\rtthread-stm32f4xx.axf" 
+Load "E:\\robocon\\程序_杨坚+防打滑\\bsp\\stm32f40x\\build\\rtthread-stm32f4xx.axf" 
+Set JLink Project File to "E:\robocon\程序_杨坚+防打滑\bsp\stm32f40x\JLinkSettings.ini"
+* JLink Info: Device "STM32F407IG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.84a, compiled Apr  4 2014 18:02:19
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: STM32 (connect): Can not attach to CPU. Trying connect under reset.
+Load "E:\\robocon\\程序_杨坚+防打滑\\bsp\\stm32f40x\\build\\rtthread-stm32f4xx.axf" 
+Set JLink Project File to "E:\robocon\程序_杨坚+防打滑\bsp\stm32f40x\JLinkSettings.ini"
+* JLink Info: Device "STM32F407IG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.84a, compiled Apr  4 2014 18:02:19
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: STM32 (connect): Can not attach to CPU. Trying connect under reset.
+Build target 'rt-thread_stm32f4xx'
+compiling liwenlin.c...
+menuSys\liwenlin.c(27): warning:  #177-D: variable "flag" was declared but never referenced
+menuSys\liwenlin.c(28): warning:  #177-D: variable "i" was declared but never referenced
+menuSys\liwenlin.c(234): warning:  #177-D: variable "st_num" was declared but never referenced
+menuSys\liwenlin.c(235): warning:  #177-D: variable "sa_num" was declared but never referenced
+compiling Command.c...
+linking...
+Program Size: Code=231826 RO-data=395294 RW-data=25472 ZI-data=74504  
+User command #1: fromelf --bin .\build\rtthread-stm32f4xx.axf --output rtthread.bin
+".\build\rtthread-stm32f4xx.axf" - 0 Error(s), 4 Warning(s).
+Load "E:\\robocon\\程序_杨坚+防打滑\\bsp\\stm32f40x\\build\\rtthread-stm32f4xx.axf" 
+Set JLink Project File to "E:\robocon\程序_杨坚+防打滑\bsp\stm32f40x\JLinkSettings.ini"
+* JLink Info: Device "STM32F407IG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.84a, compiled Apr  4 2014 18:02:19
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: STM32 (connect): Can not attach to CPU. Trying connect under reset.
+Load "E:\\robocon\\程序_杨坚+防打滑\\bsp\\stm32f40x\\build\\rtthread-stm32f4xx.axf" 
+Set JLink Project File to "E:\robocon\程序_杨坚+防打滑\bsp\stm32f40x\JLinkSettings.ini"
+* JLink Info: Device "STM32F407IG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.84a, compiled Apr  4 2014 18:02:19
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: STM32 (connect): Can not attach to CPU. Trying connect under reset.
+Build target 'rt-thread_stm32f4xx'
+compiling liwenlin.c...
+menuSys\liwenlin.c(27): warning:  #177-D: variable "flag" was declared but never referenced
+menuSys\liwenlin.c(28): warning:  #177-D: variable "i" was declared but never referenced
+menuSys\liwenlin.c(234): warning:  #177-D: variable "st_num" was declared but never referenced
+menuSys\liwenlin.c(235): warning:  #177-D: variable "sa_num" was declared but never referenced
+compiling Command.c...
+linking...
+Program Size: Code=231826 RO-data=395294 RW-data=25472 ZI-data=74504  
+User command #1: fromelf --bin .\build\rtthread-stm32f4xx.axf --output rtthread.bin
+".\build\rtthread-stm32f4xx.axf" - 0 Error(s), 4 Warning(s).
+Load "E:\\robocon\\程序_杨坚+防打滑\\bsp\\stm32f40x\\build\\rtthread-stm32f4xx.axf" 
+Set JLink Project File to "E:\robocon\程序_杨坚+防打滑\bsp\stm32f40x\JLinkSettings.ini"
+* JLink Info: Device "STM32F407IG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.84a, compiled Apr  4 2014 18:02:19
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Contents mismatch at: 08034D40H  (Flash=90H  Required=10H) !
+Contents mismatch at: 08034D41H  (Flash=EDH  Required=2BH) !
+Contents mismatch at: 08034D43H  (Flash=0BH  Required=E0H) !
+Contents mismatch at: 08034D44H  (Flash=8DH  Required=37H) !
+Contents mismatch at: 08034D45H  (Flash=EDH  Required=E0H) !
+Contents mismatch at: 08034D46H  (Flash=02H  Required=51H) !
+Contents mismatch at: 08034D47H  (Flash=0BH  Required=ECH) !
+Contents mismatch at: 08034D48H  (Flash=15H  Required=11H) !
+Contents mismatch at: 08034D49H  (Flash=48H  Required=0BH) !
+Contents mismatch at: 08034D4AH  (Flash=90H  Required=00H) !
+Contents mismatch at: 08034D4BH  (Flash=EDH  Required=F0H) !
+Contents mismatch at: 08034D4CH  (Flash=00H  Required=A0H) !
+Contents mismatch at: 08034D4DH  (Flash=0BH  Required=FBH) !
+Contents mismatch at: 08034D4EH  (Flash=8DH  Required=41H) !
+Contents mismatch at: 08034D4FH  (Flash=EDH  Required=ECH) !
+Contents mismatch at: 08034D50H  (Flash=00H  Required=10H) !
+Contents mismatch at: 08034D52H  (Flash=08H  Required=B0H) !
+Contents mismatch at: 08034D53H  (Flash=46H  Required=EEH) !
+Contents mismatch at: 08034D54H  (Flash=C8H  Required=40H) !
+Contents mismatch at: 08034D55H  (Flash=E0H  Required=DAH) !
+Contents mismatch at: 08034D56H  (Flash=00H  Required=F0H) !
+Contents mismatch at: 08034D57H  (Flash=00H  Required=EEH) !
+Contents mismatch at: 08034D58H  (Flash=48H  Required=60H) !
+Contents mismatch at: 08034D59H  (Flash=63H  Required=DAH) !
+Contents mismatch at: 08034D5AH  (Flash=00H  Required=53H) !
+Contents mismatch at: 08034D5BH  (Flash=20H  Required=ECH) !
+Contents mismatch at: 08034D5CH  (Flash=60H  Required=1CH) !
+Contents mismatch at: 08034D5DH  (Flash=63H  Required=2BH) !
+Contents mismatch at: 08034D5EH  (Flash=00H  Required=51H) !
+Contents mismatch at: 08034D5FH  (Flash=20H  Required=ECH) !
+Contents mismatch at: 08034D60H  (Flash=80H  Required=1DH) !
+Contents mismatch at: 08034D61H  (Flash=63H  Required=0BH) !
+Contents mismatch at: 08034D63H  (Flash=20H  Required=F0H) !
+Contents mismatch at: 08034D64H  (Flash=74H  Required=9AH) !
+Contents mismatch at: 08034D65H  (Flash=65H  Required=FBH) !
+Contents mismatch at: 08034D66H  (Flash=73H  Required=41H) !
+Contents mismatch at: 08034D67H  (Flash=74H  Required=ECH) !
+Contents mismatch at: 08034D68H  (Flash=5FH  Required=10H) !
+Contents mismatch at: 08034D69H  (Flash=73H  Required=0BH) !
+Contents mismatch at: 08034D6AH  (Flash=70H  Required=B0H) !
+Contents mismatch at: 08034D6BH  (Flash=65H  Required=EEH) !
+Contents mismatch at: 08034D6CH  (Flash=65H  Required=40H) !
+Contents mismatch at: 08034D6DH  (Flash=64H  Required=BAH) !
+Contents mismatch at: 08034D6EH  (Flash=5FH  Required=F0H) !
+Contents mismatch at: 08034D6FH  (Flash=78H  Required=EEH) !
+Contents mismatch at: 08034D70H  (Flash=2EH  Required=60H) !
+Contents mismatch at: 08034D71H  (Flash=74H  Required=BAH) !
+Contents mismatch at: 08034D72H  (Flash=78H  Required=53H) !
+Contents mismatch at: 08034D73H  (Flash=74H  Required=ECH) !
+Contents mismatch at: 08034D74H  (Flash=00H  Required=1AH) !
+Contents mismatch at: 08034D75H  (Flash=00H  Required=2BH) !
+Contents mismatch at: 08034D76H  (Flash=00H  Required=51H) !
+Contents mismatch at: 08034D77H  (Flash=00H  Required=ECH) !
+Contents mismatch at: 08034D78H  (Flash=B0H  Required=1BH) !
+Contents mismatch at: 08034D79H  (Flash=75H  Required=0BH) !
+Contents mismatch at: 08034D7AH  (Flash=01H  Required=00H) !
+Contents mismatch at: 08034D7BH  (Flash=20H  Required=F0H) !
+Contents mismatch at: 08034D7CH  (Flash=70H  Required=E7H) !
+Contents mismatch at: 08034D7DH  (Flash=6FH  Required=FAH) !
+Contents mismatch at: 08034D7EH  (Flash=73H  Required=41H) !
+Contents mismatch at: 08034D7FH  (Flash=69H  Required=ECH) !
+Contents mismatch at: 08034D80H  (Flash=74H  Required=10H) !
+Contents mismatch at: 08034D81H  (Flash=69H  Required=0BH) !
+Contents mismatch at: 08034D82H  (Flash=6FH  Required=B0H) !
+Contents mismatch at: 08034D83H  (Flash=6EH  Required=EEH) !
+Contents mismatch at: 08034D84H  (Flash=5FH  Required=40H) !
+Contents mismatch at: 08034D85H  (Flash=78H  Required=9AH) !
+Contents mismatch at: 08034D86H  (Flash=2EH  Required=F0H) !
+Contents mismatch at: 08034D87H  (Flash=74H  Required=EEH) !
+Contents mismatch at: 08034D88H  (Flash=78H  Required=60H) !
+Contents mismatch at: 08034D89H  (Flash=74H  Required=9AH) !
+Contents mismatch at: 08034D8AH  (Flash=00H  Required=02H) !
+Contents mismatch at: 08034D8BH  (Flash=00H  Required=F0H) !
+Contents mismatch at: 08034D8CH  (Flash=F8H  Required=19H) !
+Contents mismatch at: 08034D8DH  (Flash=79H  Required=FCH) !
+Contents mismatch at: 08034D8EH  (Flash=01H  Required=B0H) !
+Contents mismatch at: 08034D8FH  (Flash=20H  Required=EEH) !
+Contents mismatch at: 08034D90H  (Flash=64H  Required=40H) !
+Contents mismatch at: 08034D91H  (Flash=80H  Required=8AH) !
+Contents mismatch at: 08034D92H  (Flash=01H  Required=F0H) !
+Contents mismatch at: 08034D93H  (Flash=20H  Required=EEH) !
+Contents mismatch at: 08034D94H  (Flash=38H  Required=60H) !
+Contents mismatch at: 08034D95H  (Flash=63H  Required=8AH) !
+Contents mismatch at: 08034D96H  (Flash=00H  Required=9FH) !
+Contents mismatch at: 08034D97H  (Flash=20H  Required=EDH) !
+Contents mismatch at: 08034D98H  (Flash=68H  Required=66H) !
+Contents mismatch at: 08034D99H  (Flash=63H  Required=0BH) !
+Contents mismatch at: 08034D9AH  (Flash=00H  Required=53H) !
+Contents mismatch at: 08034D9BH  (Flash=20H  Required=ECH) !
+Contents mismatch at: 08034D9CH  (Flash=A0H  Required=10H) !
+Contents mismatch at: 08034D9DH  (Flash=00H  Required=2BH) !
+Contents mismatch at: 08034D9EH  (Flash=00H  Required=51H) !
+Contents mismatch at: 08034D9FH  (Flash=20H  Required=ECH) !
+Contents mismatch at: 08034DA0H  (Flash=C8H  Required=18H) !
+Contents mismatch at: 08034DA1H  (Flash=49H  Required=0BH) !
+Contents mismatch at: 08034DA3H  (Flash=20H  Required=F0H) !
+Contents mismatch at: 08034DA4H  (Flash=00H  Required=ECH) !
+Contents mismatch at: 08034DA5H  (Flash=00H  Required=FBH) !
+Contents mismatch at: 08034DA6H  (Flash=00H  Required=41H) !
+Contents mismatch at: 08034DA7H  (Flash=00H  Required=ECH) !
+Too many errors to display !
+Load "E:\\robocon\\程序_杨坚+防打滑\\bsp\\stm32f40x\\build\\rtthread-stm32f4xx.axf" 
+Set JLink Project File to "E:\robocon\程序_杨坚+防打滑\bsp\stm32f40x\JLinkSettings.ini"
+* JLink Info: Device "STM32F407IG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.84a, compiled Apr  4 2014 18:02:19
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

@@ -1,0 +1,4 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\..\components\dfs -I..\..\components\dfs\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\include -I..\..\libcpu\arm\common -I..\..\libcpu\arm\cortex-m4 -ILibraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -ILibraries\CMSIS\Include -ILibraries\CMSIS\ST\STM32F4xx\Include -ILibraries\STM32F4xx_StdPeriph_Driver\inc -Iapplications -Idrivers -I.\FatFS_R0.10 -I.\Thread -I.\menuSys -I.\UserDevices -I.\Route -I.\Auto -I.\GeneralFunctions -I..\lib -I.\fxh_bool -I.\zx_speed 
+-I E:\setup\uvision\ARM\RV31\INC 
+-I E:\setup\uvision\ARM\CMSIS\Include 
+-DUSE_STDPERIPH_DRIVER -o ".\build\stm32f4xx_rtc.o" --omf_browse ".\build\stm32f4xx_rtc.crf" --depend ".\build\stm32f4xx_rtc.d" "Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c"
