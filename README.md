@@ -1,3 +1,12 @@
+###  my blogs
+[video](https://www.bilibili.com/video/BV1aJ411e73p)
+
+[Badminton-playing robot and energy efficiency software](https://blog.csdn.net/qq_21970857/article/details/44133033)
+
+[速度环加位置环进行电机控制](https://blog.csdn.net/qq_21970857/article/details/43303447)
+
+[机器人,电机控制中排除bug的科学过程](https://blog.csdn.net/qq_21970857/article/details/43370715)
+
 # RT-Thread #
 
 [![Build Status](https://travis-ci.org/RT-Thread/rt-thread.png)](https://travis-ci.org/RT-Thread/rt-thread)
